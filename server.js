@@ -1,6 +1,6 @@
 const express = require("express");
-const apiRoutes = require("./routing/apiRoutes");
-const htmlRoutes = require("./routing/htmlRoutes");
+const apiRoutes = require("./develop/routing/apiRoutes");
+const htmlRoutes = require("./develop/routing/htmlRoutes");
 
 // Initialize the app and create a port
 const app = express();
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({
     extended: true
 }));
-app.use(express.static("public"));
+app.use(express.static("./develop/public"));
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
