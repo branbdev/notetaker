@@ -1,25 +1,24 @@
-
-
 # Note Taker
 
+[Try Me!](https://mighty-basin-83987.herokuapp.com/)
 
 ## Description
 
 A simple javascript webapp to take, edit, and delete notes that are stored in a JSON file
 
-## Table of Contents 
+## Table of Contents
 
-* [Installation](#installation)
+- [Installation](#installation)
 
-* [Usage](#usage)
+- [Usage](#usage)
 
-* [License](#license)
+- [License](#license)
 
-* [Contributing](#contributing)
+- [Contributing](#contributing)
 
-* [Tests](#tests)
+- [Tests](#tests)
 
-* [Questions](#questions)
+- [Questions](#questions)
 
 ## Installation
 
@@ -33,8 +32,6 @@ npm i
 
 I plan on adding more robust database support in the future.
 
-
-    
 ## Contributing
 
 Feel free to submit an issue! :)
@@ -52,8 +49,3 @@ npm test
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/58519368?v=4)
 
 If you have any questions about the repo, open an issue or contact [Redshreds](https://api.github.com/users/Redshreds) directly at null.
-
-
-
-
-    
